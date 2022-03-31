@@ -2,11 +2,11 @@ const BTCMiner = require('bitcoin-miner');
 // View this block in Block Explorer:  https://insight.bitpay.com/block/00000000000000000020cf2bdc6563fb25c424af588d5fb7223461e72715e4a9
 // Get it in JSON format: https://insight.bitpay.com/api/block/00000000000000000020cf2bdc6563fb25c424af588d5fb7223461e72715e4a9
 const block = {
-    version: 536870912,
-    previousblockhash: '00000000000000000061abcd4f51d81ddba5498cff67fed44b287de0990b7266',
-    merkleroot: '871148c57dad60c0cde483233b099daa3e6492a91c13b337a5413a4c4f842978',
+    version: 1,
+    previousblockhash: '000000004ebadb55ee9096c9a2f8880e09da59c0d68b1c228da88e48844a1485',
+    merkleroot: '63522845d294ee9b0188ae5cac91bf389a0c3723f084ca1025e7d9cdfe481ce1',
     time: 1515252561,
-    bits: '180091c1'
+    bits: '1d00ffff'
 };
 
 const miner = new BTCMiner(block);
